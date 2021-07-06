@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "http://akuma.cf/"
+  from = "/discord"
   to = "https://discordapp.com/invite/PsQYzJZNvk  "
   status = 200
   force = true # COMMENT: ensure that we always redirect
