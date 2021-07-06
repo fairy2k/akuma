@@ -1,16 +1,7 @@
-
-# Redirect with a 301
-http://akuma.cf/ https://discordapp.com/invite/PsQYzJZNvk                  301
-
-# Redirect with a 302
-/my-redirect  /                            302
-
-# Rewrite a path
-/pass-through /index.html                  200
-
-# Invisbily proxy to a third party API
-/api/*  https://api.example.com/:splat     200
-
-# Show a custom 404 for a path
-/special-offer    /too-late-its-over       404
-
+[[redirects]]
+  from = "http://akuma.cf/"
+  to = "https://discordapp.com/invite/PsQYzJZNvk  "
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+  signed = "API_SIGNATURE_TOKEN"
