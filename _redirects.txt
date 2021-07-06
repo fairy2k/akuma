@@ -1,6 +1,6 @@
 
 # Redirect with a 301
-/home         /                            301
+akuma.cf https://discordapp.com/invite/PsQYzJZNvk
 
 # Redirect with a 302
 /my-redirect  /                            302
